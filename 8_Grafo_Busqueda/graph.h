@@ -33,7 +33,6 @@ private:
 		int nodes;
     		vector<int> *adjList;
 		int *adjMatrix;
-		//vector<Type> *vect = new vector<Type>
 
 public:
 	
