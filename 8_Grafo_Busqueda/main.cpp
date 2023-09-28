@@ -18,14 +18,17 @@ int main(int argc, char* argv[]) {
     Graph g;
     Graph star;
 
+    string g_input = "(0,1) (0,4) (1,2) (1,3) (3,6) (4,5)";
+    string star_input = "(0,1) (0,2) (1,2) (1,3) (2,3) (2,4) (3,0) (3,4) (4,0) (4,1)";
+
     string g_ans, g_ans_2;
     string star_ans, star_ans_2;
 
-    g.loadGraphList("g.txt", 7, 7);
-    star.loadGraphList("star.txt", 5, 5);
+    g.loadGraphList(g_input, 7);
+    star.loadGraphList(star_input, 5);
 
-    g.loadGraphMat("g.txt", 7, 7);
-    star.loadGraphMat("star.txt", 5, 5);
+    g.loadGraphMat(g_input, 7, 7);
+    star.loadGraphMat(star_input, 5, 5);
 
     //g.printAdjList()
     g_ans ="vertex 0 : 1 4 vertex 1 : 0 2 3 vertex 2 : 1 vertex 3 : 1 6 vertex 4 : 0 5 vertex 5 : 4 vertex 6 : 3 ";
