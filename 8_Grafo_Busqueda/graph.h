@@ -31,14 +31,14 @@ private:
 		int edgesList;
 		int edgesMat;
 		int nodes;
-    vector<int> *adjList;
+    		vector<int> *adjList;
 		int *adjMatrix;
 		//vector<Type> *vect = new vector<Type>
 
 public:
 	
-  	void loadGraphList(string, int);
-  	void loadGraphMat(string, int, int);
+  		void loadGraphList(string, int);
+  		void loadGraphMat(string, int, int);
 		Graph(int);
 		Graph();
 		void addEdgeAdjList(int, int);
