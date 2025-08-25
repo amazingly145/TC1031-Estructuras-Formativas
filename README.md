@@ -1,4 +1,5 @@
 # TC1031_Estructuras_Formativas
+## Andrea Iliana Cantú Mayorga A01753419
 
 Estas actividades son para que practiques la implementación de algoritmos y estructuras de datos. Se basan en las actividades y programas desarrollados en clase, pero tienen pequeñas diferencias para garantizar que no copies y pegues el código ciegamente sin entenderlo.
 
@@ -9,4 +10,4 @@ el manejo de excepciones,
 los casos de prueba, 
 los formatos de entrada y salida de algunas funciones.
 
-Mi repo
+
